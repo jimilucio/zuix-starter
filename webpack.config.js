@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = {
   context: path.resolve(__dirname, './src'),
   
-  entry: './webpack-dev-serverindex.js',
+  entry: './index.js',
 
   module: {
     rules: [
